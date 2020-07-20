@@ -1,9 +1,11 @@
 import React from 'react';
-
+import TourList from './TourList';
+import Nav from './Nav';
 export default function App() {
 	return (
 		<div>
-			<h1>test</h1>
+			<Nav />
+			<TourList />
 		</div>
 	);
 }
